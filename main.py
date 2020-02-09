@@ -43,7 +43,7 @@ seed(2)
 
 
 for i in range(100):
-    c[RED] = randint(0,255)
+    c[RED] = 255
     c[BLUE] = randint(0,255)
     c[GREEN] = randint(0,255)
 
@@ -52,7 +52,7 @@ for i in range(100):
 
 for i in range(100):
     c[RED] = randint(0,255)
-    c[BLUE] = randint(0,255)
+    c[BLUE] = 255
     c[GREEN] = randint(0,255)
 
     draw_line(100, 400, 100 + randint(-150, 150), 400 + randint(-150, 150), s, c)
@@ -61,23 +61,16 @@ for i in range(100):
 for i in range(100):
     c[RED] = randint(0,255)
     c[BLUE] = randint(0,255)
-    c[GREEN] = randint(0,255)
+    c[GREEN] = 255
 
     draw_line(400, 100, 400 + randint(-150, 150), 100 + randint(-150, 150), s, c)
 
 for i in range(100):
-    c[RED] = randint(0,255)
+    c[RED] = 255
     c[BLUE] = randint(0,255)
     c[GREEN] = randint(0,255)
 
     draw_line(400, 400, 400 + randint(-150, 150), 400 + randint(-150, 150), s, c)
-
-for i in range(100):
-    c[RED] = randint(0,255)
-    c[BLUE] = randint(0,255)
-    c[GREEN] = randint(0,255)
-
-    draw_line(250, 250, 250 + randint(-200, 200), 250 + randint(-200, 200), s, c)
 
 
 display(s)
