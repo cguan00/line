@@ -45,7 +45,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
                 x += 1
                 d += 2 * a
         #octant 7 and 3
-        if m <= -1:
+        elif m <= -1:
             d = a - (2 * b)
             while y >= y1:
                 plot (screen, color, x, y)
